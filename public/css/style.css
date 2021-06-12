@@ -1,0 +1,75 @@
+.header {
+    /* background: rgb(86, 233, 67); */
+    /* background-image: linear-gradient(to right, rgb(14, 116, 56), rgb(61, 199, 118)); */
+    /* background-image: linear-gradient(to right, rgb(71, 192, 34), rgb(33, 196, 82)); */
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.nav-link {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pag1 {
+    width: 100%;
+    height: 400px;
+}
+
+.card1 {
+    /* background-image: linear-gradient(to right, #15c70f, rgb(33, 196, 82)); */
+    background: snow;
+    ;
+}
+
+.card2 {
+    background-image: linear-gradient(to right, rgb(71, 192, 34), rgb(33, 196, 82));
+    height: 500px;
+}
+
+.footer {
+    background: #030000;
+    width: 100%;
+    color: rgb(148, 146, 146);
+}
+
+.card-rodape {
+    height: 360px;
+}
+
+.img1 {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.agropecuaria {
+    color: rgb(71, 192, 34);
+}
+
+.titulo-card {
+    background: rgb(71, 192, 34);
+}
+
+.img-produto {
+    height: 600px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .mapa {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mapa {
+        width: 450px;
+        height: 350px;
+    }
+}
